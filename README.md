@@ -41,11 +41,17 @@ pip install -r requirements.txt
 
 ### 设置 API Key
 
-在项目根目录新建 `.env` 文件：
+复制 `.env.example` → `.env`，填入 Key：
 
 ```
-OPENAI_API_KEY=sk-xxx-your-key
+OPENAI_API_KEY=your-openai-api-key
 ```
+
+```bash
+bash scripts/smoke.sh   # 无 Key 也可：文件/语法检查
+```
+
+
 
 ## 📁 使用方法
 
