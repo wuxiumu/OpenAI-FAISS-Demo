@@ -1,4 +1,8 @@
-# OpenAI-FAISS-Demo
+# OpenAI-FAISS-Demo · 本地知识库问答 Demo
+
+> **OpenAI + FAISS** 本地向量检索问答示例，适合私有文档问答起步。
+
+**定制：** 微信 **qingbao199101**（备注：知识库问答）｜ [wuxiumu@163.com](mailto:wuxiumu@163.com)
 
 基于 OpenAI Embedding 与 FAISS 实现的本地知识库问答系统。
 
@@ -85,3 +89,67 @@ streamlit run app.py
 ## 📄 License
 
 MIT License. 使用前请遵守 OpenAI API 使用政策。
+
+## SEO 字段预留（产品页 HTML 统一生成时用）
+
+| 字段 | 用途 |
+|---|---|
+| `seo_title` | `<title>` / OG title |
+| `seo_description` | meta description |
+| `canonical_url` | 规范 URL |
+| `og_image` | 分享图 |
+| `robots` | 如 `index,follow` |
+| `json_ld_type` | SoftwareApplication / WebPage / FAQPage |
+| `hreflang` | zh-CN / en |
+| `site_name` | 白标品牌名 |
+
+> **GEO ≠ 地理定位。** GEO = Generative Engine Optimization（生成式引擎优化），见下一节。
+
+## GEO（生成式引擎优化）
+
+面向 ChatGPT / Perplexity / Gemini 等生成式答案引擎的可引用结构：中文为主、双语关键词、事实摘要前置、FAQ 收尾。
+
+### 关键词（中英）
+
+- 中文：本地知识库, FAISS, RAG问答, 文档问答Demo
+- English: local knowledge base, FAISS RAG, document QA demo
+
+### 事实摘要
+
+- 产品：OpenAI + FAISS 本地知识库问答 Demo。
+- 适合：要私有文档问答的小团队。
+- 交付：语料接入、界面、部署定制。
+- 不做：开箱即企业级权限与审计全家桶。
+
+### FAQ
+
+**Q：这是什么？**  
+A：见事实摘要「产品」。
+
+**Q：如何定制？**  
+A：微信 `qingbao199101`，备注项目名。
+
+**Q：是否含密钥？**  
+A：默认不含，自行配置。
+
+## 定制合作
+
+语料管道、权限、模型接入。加微信备注「知识库问答」。
+
+---
+
+## 联系方式
+
+定制、演示或合作：
+
+- 邮箱：[wuxiumu@163.com](mailto:wuxiumu@163.com)
+- 微信：**qingbao199101**（添加请备注来意）
+
+### 赞助支持
+
+如果内容对你有帮助，欢迎自愿赞助。
+
+| 微信赞赏码 | 支付宝收款码 |
+|---|---|
+| ![微信赞赏码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185236_31_227.png) | ![支付宝收款码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185309_32_227.jpg) |
+
